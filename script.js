@@ -1,6 +1,6 @@
 var MenuTop = document.createElement('button'), 
     MenuTopCollapse = document.createElement('button'), 
-    Menu = document.createElement('div');
+    Menu = document.createElement('div'),
     Game = window.location.href.replace(^(http|https)://, '');
      
 MenuTop.innerText = "Hacks for "+Game;
