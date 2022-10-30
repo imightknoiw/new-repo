@@ -6,7 +6,7 @@ var MenuTop = document.createElement('button'),
 MenuTop.innerText = "Hacks for "+Game;
 MenuTop.style.left = "10px";
 MenuTop.style.top = "10px";
-MenuTop.style.backgroundColor = "rgba(0, 0, 0, 
+MenuTop.style.backgroundColor = "rgba(0, 0, 0, 0.75)"; 
 MenuTopCollapse.innerText = "-";
 MenuTopCollapse.onclick = toggleCollapse;
 function toggleCollapse(){
